@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Netflix Clone</string>
+    <string name="logo_content_description">Netflix Logo</string>
+    <string name="tv_shows">TV Shows</string>
+    <string name="movies">Movies</string>
+    <string name="my_list">My List</string>
+
+    <string name="popular_on_nf">Popular on Netflix</string>
+    <string name="trending_now">Trending Now</string>
+    <string name="watch_again">Watch it Again</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_coming_soon">Coming Soon</string>
+    <string name="menu_downloads">Downloads</string>
+    <string name="menu_more">More</string>
+    <string name="title_activity_bottom_nav">BottomNavActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>

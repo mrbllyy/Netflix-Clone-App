@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homePageFragment">
+
+    <fragment
+        android:id="@+id/homePageFragment"
+        android:name="com.example.netflixclone.HomePageFragment"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/action_homePageFragment_to_tvShowsFragment"
+            app:destination="@id/tvShowsFragment" />
+        <action
+            android:id="@+id/action_homePageFragment_to_moviesFragment"
+            app:destination="@id/moviesFragment" />
+        <action
+            android:id="@+id/action_homePageFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tvShowsFragment"
+        android:name="com.example.netflixclone.TvShowsFragment"
+        android:label="fragment_tv_shows"
+        tools:layout="@layout/fragment_tv_shows" />
+    <fragment
+        android:id="@+id/moviesFragment"
+        android:name="com.example.netflixclone.MoviesFragment"
+        android:label="fragment_movies"
+        tools:layout="@layout/fragment_movies" />
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.netflixclone.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" />
+    <fragment
+        android:id="@+id/comingSoonFragment"
+        android:name="com.example.netflixclone.ComingSoonFragment"
+        android:label="fragment_coming_soon"
+        tools:layout="@layout/fragment_coming_soon" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.netflixclone.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/downloadsFragment"
+        android:name="com.example.netflixclone.DownloadsFragment"
+        android:label="fragment_downloads"
+        tools:layout="@layout/fragment_downloads" />
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="com.example.netflixclone.MoreFragment"
+        android:label="fragment_more"
+        tools:layout="@layout/fragment_more" />
+</navigation>
